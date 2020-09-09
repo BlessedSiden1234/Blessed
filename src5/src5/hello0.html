@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <script>
+        let counter = 0;
+
+        document.addEventListener('DOMContentLoaded',() =>{
+            document.querySelector('#click').onclick = () =>{
+                counter++;
+                document.querySelector('#timer').innerHTML = counter;                
+            };
+
+            document.querySelector('#type').disabled = true;
+
+            document.querySelector('#fry').onkeyup = () =>{
+                if (document.querySelector('#fry').value.length > 0)
+                document.querySelector('#type').disabled = false;
+                else
+                document.querySelector('#type').disabled = true;
+
+            };
+
+            document.querySelector('#new-fry').onsubmit = () =>{
+                const li = document.createElement('li');
+                li.innerHTML = document.querySelector('#fry').value;
+
+                document.querySelector('#fries').append(li);
+
+                document.querySelector('#fry').value = '';
+                document.querySelector('#type').disabled = true;
+
+                return false;
+            };
+
+            document.querySelector('#color-change').onchange = function(){
+                document.querySelector('#fish').style.color = this.value;
+            };
+        });
+      
+    </script>
+
+    <style>
+        .new-fish,ul,li{
+            padding-left :50px;
+            color:#ffffff;
+        }
+
+        body{
+            background-color: blue;
+        }
+
+        .fishing{
+            padding-left:300px;
+            font-style: 'Arial'
+        }
+    </style>
+</head>
+<body>
+  <h1 id = "fish" class = "fishing"> Fishing </h1>
+  <select id = "color-change">
+      <option value = "blue"> Blue</option>
+      <option value = "green"> Green</option>
+      <option value = "orange"> Orange</option>
+  </select>
+  <ul id = "fries"></ul>
+  <form id = "new-fry" class = "new-fish">
+      <input id = "fry" type = text>
+      <input id = "type" type = "submit">
+  </form>
+
+  <h2 id = "timer">0</h2>
+  <button id = "click"> Click</button>
+</body>
+</html>
