@@ -1,0 +1,76 @@
+
+
+/* use this to put borders around things... */
+.crop-img{
+	max-height: 250px;
+	max-width: 100%;
+	margin-bottom: 5px;
+	margin-left: 300px;
+	margin-right: 50px;
+	shape-margin: 30px;
+	animation: 5s;
+	animation-play-state: 2s;
+	animation-fill-mode: 200px;
+	animation-direction: 20px;
+	animation-name: GOKU VS SUPERMAN;
+	animation-delay: 1000;
+	animation-timing-function: 300;
+}
+
+.large-img{
+	max-width: 50%;
+	animation-iteration-count: 3s;
+	margin-top: 10px;
+	margin-left: 500px;
+	margin-bottom: 5px;
+	marker-start: 100px;
+	animation: 5s;
+	animation-play-state: 2s;
+	animation-fill-mode: 200px;
+	animation-direction: 20px;
+	animation-name: GOKU VS SUPERMAN;
+	animation-delay: 1000;
+	animation-timing-function: 300;
+
+}
+
+h1{
+	text-align: center;
+	padding-top: 50px;
+}
+
+p{
+	padding: 5px;
+	font-size:25px;
+	padding-left: 15px;
+}
+
+.header{
+	padding-top: 50px;
+}
+
+.row{
+	background-color: pink
+}
+.footer{
+	font-size: 25px;
+	float: right;
+}
+.nav{
+	float:right;
+	font-size: 25px;
+}
+
+a:hover{
+	color:red;
+}
+
+
+
+body{
+	background-color: pink
+}
+
+
+
+
