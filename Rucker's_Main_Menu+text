@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+    <title>Rucker's</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+    <body>
+        <div class = "container">
+            <header>
+                <div class = "left">
+                    <ul>
+                        <li><a href= "Rucker's_HOME_page.html">HOME</a></li>
+                        <li> <a href= "Rucker's_Main_Menu.html">MENU</a></li>
+                        <li><a href= "Rucker's_Specials_Menu.html">SPECIALS</a></li>
+                        <li><a href= "Rucker's_Deserts_Menu.html">DESERT</a></li>
+                        <li><a href= "Rucker's_Beverages_Menu.html">BEVERAGES</a></li>
+                        <li><a href= "Rucker's_Gift_Cards.html">GIFTCARD</a></li>
+                        <li> <a href= "Rucker's_Online_Order_Form.html">ORDER FORM</a></li>
+                        <li> <a href= "About_Us.html">ABOUT US</a></li>
+                        <li> <a href= "mailto:staff@ruckers.com">CONTACT US</a></li>
+                    </ul>
+                </div>
+               
+                <div class = "right">
+                    <p class = "white"><Strong>Phone #(602) 789-5672</Strong></p>
+                </div>
+                
+               <!-- Alronco Grant ID number 22837021 exam number 703724 Michellegrant@5027gmail.com-->
+            </header>
+
+            <main>
+                <div class = "center">
+                    <img src="restaurant-interior.jpg" alt="restaurant" title="restaurant" width="600" height="500">
+                </div>
+                <form action = "#">
+                    <div class = "row">
+                        <div class = "option-2">
+                            <h3 class = "center-2">Appetizers</h3>
+                            <div class = "row-1">
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="wild_shrimp.jpg" alt = "wild shrimp" width= "200" height="200"/>
+                                    </div>
+                                   
+                                    <div>
+                                        <input type="checkbox"><label for="text">Rucker's Wild Shrimp $10.99</label>
+                                    </div>
+                                </div>
+                               
+                                <div class = left-1>
+                                    <div class ="center-1">
+                                        <img src="Loaded Fries.jpg" alt = "Loaded Fries" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Rucker's Loaded Fries $9.49</label>
+                                    </div>
+                                </div>       
+                                
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="Loaded Fries.jpg" alt = "Loaded Fries" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Rucker's Loaded Fries $9.49</label>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+    
+                        <div class = "option-2">
+                            <h3 class = "center-2">Soup and Salad</h3>
+                            <div class = "row-1">
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="chowder.jpg" alt = "Shrimp & Lobster Chowder Soups" width= "200" height="200"/>
+                                    </div>
+                                   
+                                    <div>
+                                        <input type="checkbox"><label for="text">Lobster Chowder Soups $5.49</label>
+                                    </div>
+                                </div>
+                               
+                                <div class = left-1>
+                                    <div class ="center-1">
+                                        <img src="Onion Soup.jpg" alt = "French Onion Soup" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Onion Soup $5.49</label>
+                                    </div>
+                                </div>       
+                                
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="side salad.jpg" alt = "Side Salads"width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Salads $4.49</label>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+    
+                        <div class = "option-2">
+                            <h3 class = "center-2">Entre Salad</h3>
+                            <div class = "row-1">
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="strawberry chicken salad.jpg" alt = "rilled Chicken & Strawberry Salad"width= "200" height="200"/>
+                                    </div>
+                                   
+                                    <div>
+                                        <input type="checkbox"><label for="text">Chicken & Strawberry Salad $14.29</label>
+                                    </div>
+                                </div>
+                               
+                                <div class = left-1>
+                                    <div class ="center-1">
+                                        <img src="grilled chinken tenders salad.jpg" alt= "Fresh Field Greens with Chicken Tenders"width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Field Greens with Chicken Tenders $13.29</label>
+                                    </div>
+                                </div>       
+                                
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="grilled shrimp salad.jpg" alt = "Grilled Shrimp salad"  width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Shrimp Salad $14.49</label>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+
+                        <div class = "option-2">
+                            <h3 class = "center-2">Rucker's Steak</h3>
+                            <div class = "row-1">
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="t-bone steak.jpg" alt = "t-bone"  width= "200" height="200"/>
+                                    </div>
+                                   
+                                    <div>
+                                        <input type="checkbox"><label for="text">Rucker's Ribeye 25.79</label>
+                                    </div>
+                                </div>
+                               
+                                <div class = left-1>
+                                    <div class ="center-1">
+                                        <img src="sirloin steak.jpg" alt = "Sirloins" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Sirloins $29.49</label>
+                                    </div>
+                                </div>       
+                                
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="ribeye.jpg" alt = "Ribeye" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Rucker's Loaded Fries $9.49</label>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+
+                        <div class = "option-2">
+                            <h3 class = "center-2">Chicken</h3>
+                            <div class = "row-1">
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="chicken tenderds.jpg" alt = "chicken tenders" width= "200" height="200"/>
+                                    </div>
+                                
+                                    <div>
+                                        <input type="checkbox"><label for="text">Hand-breaded Chicken Tenders $12.99</label>
+                                    </div>
+                                </div>
+                            
+                                <div class = left-1>
+                                    <div class ="center-1">
+                                        <img src="chicken pasta.jpg" alt = "Chicken Pasta" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Chicken Pasta 15.29</label>
+                                    </div>
+                                </div>       
+                                
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="country fried chicken.jpg" alt = "ountry fried chicken"width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Country Fried Chicken $13.49</label>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+ 
+                        <div class = "option-2">
+                            <h3 class = "center-2">Seafood</h3>
+                            <div class = "row-1">
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="seafood pasta.jpg" alt = "seafood pasta"  width= "200" height="200"/>
+                                    </div>
+                                
+                                    <div>
+                                        <input type="checkbox"><label for="text">Rucker's Wild Shriump $10.99</label>
+                                    </div>
+                                </div>
+                            
+                                <div class = left-1>
+                                    <div class ="center-1">
+                                        <img src="salmon.jpg" alt = "salmon" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Seafood Pasta $15.49</label>
+                                    </div>
+                                </div>       
+                                
+                                <div class = "left-1">
+                                    <div class = "center-1">
+                                        <img src="grilled shrimp salad.jpg" alt = "Grilled Shrimp salad" width= "200" height="200"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox"><label for="text">Grilled Shrimp Salad $14.49</label>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class = "center center-down">
+                            <input type = "submit" value="Submit">
+                        </div>  
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <p>&copy; Copyright Alronco Grant. 2021</p>
+            </footer>
+        </body>       
+    </html>
+
+
+    
